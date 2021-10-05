@@ -3,7 +3,9 @@
 # TODO: Make sure that that folder exists first
 echo "Copying all the script files to ~/bin..."
 
-cp -a ./scripts/. $HOME/bin
+
+
+cp -a $PWD/scripts/. $HOME/bin
 
 echo "Script files copied successfully."
 
