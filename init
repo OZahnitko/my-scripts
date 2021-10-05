@@ -6,6 +6,5 @@ echo "Copying all the script files to ~/bin..."
 cp -a ./scripts/. $HOME/bin
 
 echo "Script files copied successfully."
-cd ..
 
 # TODO: Add to PATH
