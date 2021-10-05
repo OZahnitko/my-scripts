@@ -1,3 +1,9 @@
 #!/bin/zsh
 
-echo "hello from the inner side"
+echo "Copying all the script files to ~/bin..."
+
+cp -a ./scripts/. $HOME/bin
+
+echo "Script files copied successfully."
+
+# TODO: Add to PATH

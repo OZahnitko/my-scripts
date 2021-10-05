@@ -34,5 +34,4 @@ else
     make_component_file $component_name
     make_styles_file
     make_index_file $component_name
-    git init
 fi
