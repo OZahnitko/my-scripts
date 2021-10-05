@@ -5,7 +5,7 @@ echo "Copying all the script files to ~/bin..."
 
 
 
-cp -a $PWD/scripts/. $HOME/bin
+cp -a $PWD/my-scripts/scripts/. $HOME/bin
 
 echo "Script files copied successfully."
 
